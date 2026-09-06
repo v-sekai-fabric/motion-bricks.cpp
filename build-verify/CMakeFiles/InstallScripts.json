@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ernest.lee/Desktop/weftspun/3-interactor/motion-bricks-cpp/build-verify/cmake_install.cmake",
+		"/Users/ernest.lee/Desktop/weftspun/3-interactor/motion-bricks-cpp/build-verify/ggml/cmake_install.cmake",
+		"/Users/ernest.lee/Desktop/weftspun/3-interactor/motion-bricks-cpp/build-verify/ggml/src/cmake_install.cmake",
+		"/Users/ernest.lee/Desktop/weftspun/3-interactor/motion-bricks-cpp/build-verify/ggml/src/ggml-cpu/cmake_install.cmake",
+		"/Users/ernest.lee/Desktop/weftspun/3-interactor/motion-bricks-cpp/build-verify/ggml/src/ggml-blas/cmake_install.cmake",
+		"/Users/ernest.lee/Desktop/weftspun/3-interactor/motion-bricks-cpp/build-verify/ggml/src/ggml-metal/cmake_install.cmake",
+		"/Users/ernest.lee/Desktop/weftspun/3-interactor/motion-bricks-cpp/build-verify/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
