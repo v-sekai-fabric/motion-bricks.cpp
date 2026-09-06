@@ -1,0 +1,90 @@
+CoACD params: {'threshold': 0.4, 'mcts_iterations': 20, 'mcts_nodes': 10, 'preprocess_resolution': 30}
+skinned bones with geometry: 80
+  [1] J_Bip_C_Hips tris=1272 hulls=6 t=54.93s
+  [2] J_Aim_L_UpperLeg tris=240 hulls=2 t=1.67s
+  [3] J_Roll_L_UpperLeg tris=162 hulls=1 t=1.18s
+  [4] J_Sec_L_TopsUpperLegBack tris=216 hulls=1 t=0.61s
+  [5] J_Sec_L_TopsUpperLegFront tris=218 hulls=2 t=0.31s
+  [6] J_Sec_L_TopsUpperLegSide tris=12906 hulls=2 t=3.93s
+  [7] J_Aim_R_UpperLeg tris=114 hulls=5 t=17.23s
+  [8] J_Bip_C_Spine tris=154 hulls=2 t=7.83s
+  [9] J_Bip_C_Chest tris=352 hulls=3 t=14.15s
+  [10] J_Bip_C_UpperChest tris=280 hulls=5 t=10.60s
+  [11] J_Bip_C_Neck tris=190 hulls=4 t=18.09s
+  [12] J_Bip_C_Head tris=2402 hulls=8 t=44.91s
+  [13] J_Bip_L_Shoulder tris=352 hulls=2 t=5.83s
+  [14] J_Aim_L_Shoulder tris=509 hulls=2 t=3.01s
+  [15] J_Roll_L_UpperArm tris=82 hulls=4 t=8.21s
+  [16] J_Aim_L_TopsUpperArm tris=492 hulls=2 t=6.38s
+  [17] J_Sec_L_TopsUpperArmInside tris=352 hulls=1 t=1.59s
+  [18] J_Sec_L_TopsUpperArmOutside tris=14 hulls=1 t=0.33s
+  [19] J_Bip_L_UpperArm tris=143 hulls=4 t=11.27s
+  [20] J_Bip_L_LowerArm tris=251 hulls=2 t=0.72s
+  [21] J_Bip_L_Hand tris=396 hulls=2 t=0.82s
+  [22] J_Bip_L_Index1 tris=311 hulls=2 t=0.61s
+  [23] J_Bip_L_Index2 tris=284 hulls=2 t=0.55s
+  [24] J_Bip_L_Index3 tris=84 hulls=4 t=13.23s
+  [25] J_Bip_L_Little1 tris=63 hulls=2 t=7.74s
+  [26] J_Bip_L_Little2 tris=250 hulls=2 t=0.48s
+  [27] J_Bip_L_Little3 tris=306 hulls=2 t=0.56s
+  [28] J_Bip_L_Middle1 tris=272 hulls=2 t=0.57s
+  [29] J_Bip_L_Middle2 tris=250 hulls=2 t=0.55s
+  [30] J_Bip_L_Middle3 tris=304 hulls=2 t=0.62s
+  [31] J_Bip_L_Ring1 tris=64 hulls=2 t=10.63s
+  [32] J_Bip_L_Ring2 tris=258 hulls=2 t=0.46s
+  [33] J_Bip_L_Ring3 tris=298 hulls=2 t=0.55s
+  [34] J_Bip_L_Thumb1 tris=263 hulls=2 t=0.67s
+  [35] J_Bip_L_Thumb2 tris=282 hulls=2 t=0.65s
+  [36] J_Bip_L_Thumb3 tris=310 hulls=2 t=0.70s
+  [37] J_Roll_L_Hand tris=585 hulls=2 t=0.99s
+  [38] J_Roll_L_LowerArm tris=160 hulls=4 t=13.56s
+  [39] J_Roll_L_Elbow tris=60 hulls=2 t=7.00s
+  [40] J_Bip_R_Shoulder tris=454 hulls=2 t=7.52s
+  [41] J_Aim_R_Shoulder tris=279 hulls=2 t=2.59s
+  [42] J_Roll_R_UpperArm tris=82 hulls=4 t=7.92s
+  [43] J_Aim_R_TopsUpperArm tris=304 hulls=2 t=5.99s
+  [44] J_Sec_R_TopsUpperArmInside tris=90 hulls=1 t=0.74s
+  [45] J_Sec_R_TopsUpperArmOutside tris=14 hulls=1 t=0.31s
+  [46] J_Bip_R_UpperArm tris=143 hulls=4 t=10.51s
+  [47] J_Bip_R_LowerArm tris=229 hulls=2 t=0.88s
+  [48] J_Bip_R_Hand tris=370 hulls=2 t=0.86s
+  [49] J_Bip_R_Index1 tris=281 hulls=2 t=0.73s
+  [50] J_Bip_R_Index2 tris=240 hulls=2 t=0.71s
+  [51] J_Bip_R_Index3 tris=290 hulls=2 t=0.67s
+  [52] J_Bip_R_Little1 tris=63 hulls=2 t=5.30s
+  [53] J_Bip_R_Little2 tris=262 hulls=2 t=0.48s
+  [54] J_Bip_R_Little3 tris=308 hulls=2 t=0.57s
+  [55] J_Bip_R_Middle1 tris=276 hulls=2 t=0.66s
+  [56] J_Bip_R_Middle2 tris=244 hulls=2 t=0.64s
+  [57] J_Bip_R_Middle3 tris=306 hulls=2 t=0.58s
+  [58] J_Bip_R_Ring1 tris=64 hulls=2 t=7.16s
+  [59] J_Bip_R_Ring2 tris=250 hulls=2 t=0.50s
+  [60] J_Bip_R_Ring3 tris=336 hulls=2 t=0.57s
+  [61] J_Bip_R_Thumb1 tris=293 hulls=2 t=0.70s
+  [62] J_Bip_R_Thumb2 tris=316 hulls=2 t=0.70s
+  [63] J_Bip_R_Thumb3 tris=330 hulls=2 t=0.68s
+  [64] J_Roll_R_Hand tris=207 hulls=1 t=0.60s
+  [65] J_Roll_R_LowerArm tris=400 hulls=2 t=1.43s
+  [66] J_Roll_R_Elbow tris=60 hulls=2 t=6.89s
+  [67] J_Sec_L_Bust1 tris=46 hulls=1 t=0.41s
+  [68] J_Sec_L_Bust2 tris=254 hulls=1 t=0.52s
+  [69] J_Sec_R_Bust1 tris=288 hulls=2 t=2.43s
+  [70] J_Sec_R_Bust2 tris=240 hulls=1 t=0.73s
+  [71] J_Bip_L_UpperLeg tris=528 hulls=2 t=1.97s
+  [72] J_Bip_L_LowerLeg tris=630 hulls=1 t=0.31s
+  [73] J_Bip_L_Foot tris=528 hulls=2 t=0.53s
+  [74] J_Bip_L_ToeBase tris=214 hulls=2 t=0.44s
+  [75] J_Bip_R_UpperLeg tris=420 hulls=1 t=0.56s
+  [76] J_Bip_R_LowerLeg tris=630 hulls=1 t=0.29s
+  [77] J_Bip_R_Foot tris=506 hulls=2 t=14.90s
+  [78] J_Bip_R_ToeBase tris=190 hulls=4 t=43.42s
+
+bone                                 verts    tris  hulls
+Traceback (most recent call last):
+  File "C:\fabric-starforged\3-interactor\motion-bricks-cpp\mujoco\vrm_coacd.py", line 197, in <module>
+    main()
+    ~~~~^^
+  File "C:\fabric-starforged\3-interactor\motion-bricks-cpp\mujoco\vrm_coacd.py", line 180, in main
+    for name, nv, nf, nh in rows[:20]:
+        ^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 4)

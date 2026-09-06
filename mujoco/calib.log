@@ -1,0 +1,59 @@
+caching representative bones:
+  cached J_Sec_L_TopsUpperLegSide             8880 verts  12906 tris
+  cached J_Bip_C_Head                         1470 verts   2402 tris
+  cached J_Bip_C_Hips                          906 verts   1272 tris
+  cached J_Bip_L_Foot                          439 verts    528 tris
+  ran threshold=0.05 in 95.2s
+  ran threshold=0.1 in 98.9s
+  ran threshold=0.15 in 86.2s
+  ran threshold=0.2 in 37.2s
+  ran threshold=0.3 in 30.9s
+
+=== Stage A: threshold sweep on J_Sec_L_TopsUpperLegSide (12906 tris, defaults elsewhere) ===
+config                                   hulls   time_s   cover   bloat  h_verts
+threshold=0.05                              26    94.37  0.9983   0.238     2382
+threshold=0.1                               12    98.06  0.9984   0.328     1706
+threshold=0.15                               8    85.40  0.9987   0.376     1489
+threshold=0.2                                2    36.45  0.9992   0.486      872
+threshold=0.3                                2    30.10  0.9992   0.486      872
+  ran mcts_iter=150 nodes=20 (default) in 75.7s
+  ran mcts_iter=50  nodes=20 in 39.1s
+  ran mcts_iter=20  nodes=10 in 18.8s
+  ran mcts_iter=20 nodes=10 depth=2 in 17.2s
+  ran + preprocess_resolution=30 in 11.2s
+  ran + resolution=1000 in 19.9s
+
+=== Stage B: search cost at threshold=0.15 ===
+config                                   hulls   time_s   cover   bloat  h_verts
+mcts_iter=150 nodes=20 (default)             8    74.94  0.9987   0.376     1489
+mcts_iter=50  nodes=20                       8    38.42  0.9987   0.376     1490
+mcts_iter=20  nodes=10                       8    18.18  0.9988   0.363     1499
+mcts_iter=20 nodes=10 depth=2                6    16.49  0.9991   0.382     1283
++ preprocess_resolution=30                   8    10.49  0.9973   0.399     1201
++ resolution=1000                            7    19.27  0.9988   0.392     1417
+  ran base in 18.8s
+  ran max_convex_hull=8 in 18.9s
+  ran max_convex_hull=4 in 20.2s
+  ran max_ch_vertex=64 in 20.2s
+  ran max_ch_vertex=32 in 19.8s
+  ran decimate+32 in 21.1s
+
+=== Stage C: hull cap + vertex budget at threshold=0.15 ===
+config                                   hulls   time_s   cover   bloat  h_verts
+base                                         8    18.09  0.9988   0.363     1499
+max_convex_hull=8                            8    18.27  0.9988   0.363     1499
+max_convex_hull=4                            4    19.53  0.9989   0.566     1186
+max_ch_vertex=64                             4    19.50  0.9989   0.566     1186
+max_ch_vertex=32                             4    19.19  0.9989   0.566     1186
+decimate+32                                  4    20.55  0.6555   0.461      128
+  ran J_Sec_L_TopsUpperLegSide in 19.7s
+  ran J_Bip_C_Head in 111.0s
+  ran J_Bip_C_Hips in 148.4s
+  ran J_Bip_L_Foot in 1.3s
+
+=== Stage D: candidate {'threshold': 0.15, 'mcts_iterations': 20, 'mcts_nodes': 10, 'max_convex_hull': 4, 'max_ch_vertex': 32} across bones ===
+config                                   hulls   time_s   cover   bloat  h_verts
+J_Sec_L_TopsUpperLegSide                     4    19.08  0.9989   0.566     1186
+J_Bip_C_Head                                 4   110.25  0.9952   0.818     8723
+J_Bip_C_Hips                                 4   147.85  0.9834   0.936      871
+J_Bip_L_Foot                                 2     0.78  0.9613   0.184      173

@@ -1,0 +1,43 @@
+{
+  "device": "NVIDIA GeForce RTX 3090",
+  "gates": {
+    "g1_lbs_env0_max_abs_err": 2.8222357761897854e-07,
+    "g1_lbs_env1_max_abs_err": 2.755086245809224e-07,
+    "g1_pass": true,
+    "g2_iou_identical": [
+      1.0,
+      1.0
+    ],
+    "g2_pass": true,
+    "g3_iou_offset": [
+      0.4378124177455902,
+      0.41198182106018066
+    ],
+    "g3_pass": true,
+    "g4_iou_vs_restpose": [
+      0.7948257327079773,
+      0.5282442569732666
+    ],
+    "g4_iou_vs_posedref": [
+      1.0,
+      1.0
+    ],
+    "g4_tpose_reference_error": [
+      0.2051742672920227,
+      0.4717557430267334
+    ],
+    "g4_pass": true,
+    "g5_coverage": [
+      0.15142822265625,
+      0.15203857421875
+    ],
+    "g5_pass": true,
+    "all_pass": true
+  },
+  "avatar": {
+    "verts": 24951,
+    "tris": 36470,
+    "nodes": 171,
+    "morphs": 399
+  }
+}

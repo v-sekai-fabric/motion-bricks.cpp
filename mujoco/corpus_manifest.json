@@ -1,0 +1,1902 @@
+{
+ "n_per_stratum": 50,
+ "strata": {
+  "human": 50,
+  "game": 50
+ },
+ "fill_counts": {
+  "human": {
+   "generated": 50
+  },
+  "game": {
+   "acquired": 8,
+   "generated": 17,
+   "unfilled": 19,
+   "csg_hull": 6
+  }
+ },
+ "avatars": [
+  {
+   "avatar_id": "H000",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "infancy_0_4",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.0,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H001",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "juvenile_5_14",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.18,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H002",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "youth_15_24",
+    "region": "europe"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.35,
+    "asian": 0.0,
+    "african": 0.0,
+    "caucasian": 1.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H003",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "latin_america"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 0.4,
+    "african": 0.2,
+    "caucasian": 0.4
+   },
+   "caveats": [
+    "region 'latin_america' has no ANNY ancestry axis; expressed as an admixture of african/asian/caucasian with placeholder weights"
+   ]
+  },
+  {
+   "avatar_id": "H004",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "north_america"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 0.2,
+    "african": 0.2,
+    "caucasian": 0.6
+   },
+   "caveats": [
+    "region 'north_america' has no ANNY ancestry axis; expressed as an admixture of african/asian/caucasian with placeholder weights"
+   ]
+  },
+  {
+   "avatar_id": "H005",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "senior_65_plus",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 1.0,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H006",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "infancy_0_4",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.0,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H007",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "juvenile_5_14",
+    "region": "europe"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.18,
+    "asian": 0.0,
+    "african": 0.0,
+    "caucasian": 1.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H008",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "youth_15_24",
+    "region": "latin_america"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.35,
+    "asian": 0.4,
+    "african": 0.2,
+    "caucasian": 0.4
+   },
+   "caveats": [
+    "region 'latin_america' has no ANNY ancestry axis; expressed as an admixture of african/asian/caucasian with placeholder weights"
+   ]
+  },
+  {
+   "avatar_id": "H009",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "north_america"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 0.2,
+    "african": 0.2,
+    "caucasian": 0.6
+   },
+   "caveats": [
+    "region 'north_america' has no ANNY ancestry axis; expressed as an admixture of african/asian/caucasian with placeholder weights"
+   ]
+  },
+  {
+   "avatar_id": "H010",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H011",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "senior_65_plus",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 1.0,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H012",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "infancy_0_4",
+    "region": "europe"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.0,
+    "asian": 0.0,
+    "african": 0.0,
+    "caucasian": 1.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H013",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "juvenile_5_14",
+    "region": "latin_america"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.18,
+    "asian": 0.4,
+    "african": 0.2,
+    "caucasian": 0.4
+   },
+   "caveats": [
+    "region 'latin_america' has no ANNY ancestry axis; expressed as an admixture of african/asian/caucasian with placeholder weights"
+   ]
+  },
+  {
+   "avatar_id": "H014",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "youth_15_24",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.35,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H015",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H016",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "europe"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 0.0,
+    "african": 0.0,
+    "caucasian": 1.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H017",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "senior_65_plus",
+    "region": "latin_america"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 1.0,
+    "asian": 0.4,
+    "african": 0.2,
+    "caucasian": 0.4
+   },
+   "caveats": [
+    "region 'latin_america' has no ANNY ancestry axis; expressed as an admixture of african/asian/caucasian with placeholder weights"
+   ]
+  },
+  {
+   "avatar_id": "H018",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "infancy_0_4",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.0,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H019",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "juvenile_5_14",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.18,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H020",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "youth_15_24",
+    "region": "europe"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.35,
+    "asian": 0.0,
+    "african": 0.0,
+    "caucasian": 1.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H021",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H022",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H023",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "senior_65_plus",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 1.0,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H024",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "juvenile_5_14",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.18,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H025",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "youth_15_24",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.35,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H026",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "adult_25_44",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.55,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H027",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "middle_aged_45_64",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.78,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H028",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "senior_65_plus",
+    "region": "africa"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 1.0,
+    "asian": 0.0,
+    "african": 1.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H029",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "juvenile_5_14",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.18,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H030",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "youth_15_24",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.35,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H031",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H032",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H033",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "juvenile_5_14",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.18,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H034",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "youth_15_24",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.35,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H035",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H036",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H037",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "juvenile_5_14",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.18,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H038",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "youth_15_24",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.35,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H039",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H040",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H041",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H042",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H043",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H044",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "middle_aged_45_64",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.78,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H045",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H046",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H047",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H048",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "male",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 1.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "H049",
+   "stratum": "human",
+   "fill": "generated",
+   "cell": {
+    "sex": "female",
+    "age": "adult_25_44",
+    "region": "asia"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY parametric body model, phenotype sweep",
+   "params": {
+    "gender": 0.0,
+    "age": 0.55,
+    "asian": 1.0,
+    "african": 0.0,
+    "caucasian": 0.0
+   },
+   "caveats": []
+  },
+  {
+   "avatar_id": "G000",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "VRM1_Constraint_Twist_Sample_01.vrm",
+   "licence": "VRM-native permissive (mod+redist+commercial, no NC, no SA)",
+   "provenance": "pixiv Inc.; in manifest at 6-datasource/sk-vrm1-constraint-twist-sample",
+   "params": {},
+   "caveats": [
+    "licence form is VRM-native permission bits, not a named CC licence"
+   ]
+  },
+  {
+   "avatar_id": "G001",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "MireQuest.blend",
+   "licence": "Apache-2.0",
+   "provenance": "chibifire-characters/mesh-mille-mire-feuille; 75 bones, 110 shape keys",
+   "params": {},
+   "caveats": []
+  },
+  {
+   "avatar_id": "G002",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "Mire.blend",
+   "licence": "Apache-2.0",
+   "provenance": "chibifire-characters/mesh-mille-mire-feuille; 30 MB source",
+   "params": {},
+   "caveats": []
+  },
+  {
+   "avatar_id": "G003",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "FAAVRS_X_1.1.blend",
+   "licence": "CC-BY-4.0",
+   "provenance": "V-Sekai-fire/SK_faavrs_breadbread; derived from David Onizaki base mesh (CC-BY-4.0); 80 bones, 83 shape keys",
+   "params": {},
+   "caveats": []
+  },
+  {
+   "avatar_id": "G004",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "human_base_meshes_bundle.blend",
+   "licence": "CC0",
+   "provenance": "Blender human-base-meshes-bundle-v1.4.1",
+   "params": {},
+   "caveats": []
+  },
+  {
+   "avatar_id": "G005",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "human_base_meshes_bundle.blend",
+   "licence": "CC0",
+   "provenance": "Blender human-base-meshes-bundle-v1.4.1",
+   "params": {},
+   "caveats": []
+  },
+  {
+   "avatar_id": "G006",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "human_base_meshes_bundle.blend",
+   "licence": "CC0",
+   "provenance": "Blender human-base-meshes-bundle-v1.4.1",
+   "params": {},
+   "caveats": []
+  },
+  {
+   "avatar_id": "G007",
+   "stratum": "game",
+   "fill": "acquired",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "human_base_meshes_bundle.blend",
+   "licence": "CC0",
+   "provenance": "Blender human-base-meshes-bundle-v1.4.1",
+   "params": {},
+   "caveats": []
+  },
+  {
+   "avatar_id": "G008",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G009",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G010",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G011",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G012",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G013",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G014",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G015",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G016",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G017",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "feminine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G018",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "masculine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 1.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G019",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "masculine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 1.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G020",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "masculine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 1.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G021",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "masculine"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 1.0
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G022",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "other"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.5
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G023",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "other"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.5
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G024",
+   "stratum": "game",
+   "fill": "generated",
+   "cell": {
+    "species": "humanoid",
+    "presentation": "other"
+   },
+   "source": "anny (3-interactor/anny)",
+   "licence": "Apache-2.0 (NAVER)",
+   "provenance": "ANNY phenotype variant standing in for a stylised humanoid",
+   "params": {
+    "gender": 0.5
+   },
+   "caveats": [
+    "ANNY is a realistic human model; it does not reproduce stylised/anime character identity"
+   ]
+  },
+  {
+   "avatar_id": "G025",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G026",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G027",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G028",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G029",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G030",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G031",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G032",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G033",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G034",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G035",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G036",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G037",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G038",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "feminine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G039",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "masculine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G040",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "masculine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G041",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "masculine"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G042",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "other"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G043",
+   "stratum": "game",
+   "fill": "unfilled",
+   "cell": {
+    "species": "semi_humanoid",
+    "presentation": "other"
+   },
+   "source": "(none)",
+   "licence": "(n/a)",
+   "provenance": "no source identified",
+   "params": {},
+   "caveats": [
+    "semi-humanoid needs non-human topology (tail, extra limbs, animal ears) that ANNY cannot express and that no acquired asset covers; a CSG hull would lose the identity this class exists to carry"
+   ]
+  },
+  {
+   "avatar_id": "G044",
+   "stratum": "game",
+   "fill": "csg_hull",
+   "cell": {
+    "species": "cyborg",
+    "presentation": "feminine"
+   },
+   "source": "blender MANIFOLD boolean CSG",
+   "licence": "CC0 (workspace-authored)",
+   "provenance": "manifold CSG proxy; watertightness asserted per-asset (0 non-manifold edges/verts)",
+   "params": {},
+   "caveats": [
+    "collision/silhouette proxy only -- no surface detail, no texture, not a renderable character"
+   ]
+  },
+  {
+   "avatar_id": "G045",
+   "stratum": "game",
+   "fill": "csg_hull",
+   "cell": {
+    "species": "cyborg",
+    "presentation": "feminine"
+   },
+   "source": "blender MANIFOLD boolean CSG",
+   "licence": "CC0 (workspace-authored)",
+   "provenance": "manifold CSG proxy; watertightness asserted per-asset (0 non-manifold edges/verts)",
+   "params": {},
+   "caveats": [
+    "collision/silhouette proxy only -- no surface detail, no texture, not a renderable character"
+   ]
+  },
+  {
+   "avatar_id": "G046",
+   "stratum": "game",
+   "fill": "csg_hull",
+   "cell": {
+    "species": "cyborg",
+    "presentation": "masculine"
+   },
+   "source": "blender MANIFOLD boolean CSG",
+   "licence": "CC0 (workspace-authored)",
+   "provenance": "manifold CSG proxy; watertightness asserted per-asset (0 non-manifold edges/verts)",
+   "params": {},
+   "caveats": [
+    "collision/silhouette proxy only -- no surface detail, no texture, not a renderable character"
+   ]
+  },
+  {
+   "avatar_id": "G047",
+   "stratum": "game",
+   "fill": "csg_hull",
+   "cell": {
+    "species": "animal",
+    "presentation": "feminine"
+   },
+   "source": "blender MANIFOLD boolean CSG",
+   "licence": "CC0 (workspace-authored)",
+   "provenance": "manifold CSG proxy; watertightness asserted per-asset (0 non-manifold edges/verts)",
+   "params": {},
+   "caveats": [
+    "collision/silhouette proxy only -- no surface detail, no texture, not a renderable character"
+   ]
+  },
+  {
+   "avatar_id": "G048",
+   "stratum": "game",
+   "fill": "csg_hull",
+   "cell": {
+    "species": "plant",
+    "presentation": "feminine"
+   },
+   "source": "blender MANIFOLD boolean CSG",
+   "licence": "CC0 (workspace-authored)",
+   "provenance": "manifold CSG proxy; watertightness asserted per-asset (0 non-manifold edges/verts)",
+   "params": {},
+   "caveats": [
+    "collision/silhouette proxy only -- no surface detail, no texture, not a renderable character"
+   ]
+  },
+  {
+   "avatar_id": "G049",
+   "stratum": "game",
+   "fill": "csg_hull",
+   "cell": {
+    "species": "exotic",
+    "presentation": "feminine"
+   },
+   "source": "blender MANIFOLD boolean CSG",
+   "licence": "CC0 (workspace-authored)",
+   "provenance": "manifold CSG proxy; watertightness asserted per-asset (0 non-manifold edges/verts)",
+   "params": {},
+   "caveats": [
+    "collision/silhouette proxy only -- no surface detail, no texture, not a renderable character"
+   ]
+  }
+ ]
+}

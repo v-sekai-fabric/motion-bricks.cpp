@@ -9,3 +9,18 @@
 compile_commands.json
 __pycache__/
 ggml
+.venv/
+.slangtorch_cache/
+# G1 MJCF meshes: redownloadable from google-deepmind/mujoco_menagerie (BSD-3-Clause).
+# 35 MB of third-party STL does not belong vendored in a no-LFS repo.
+mujoco/assets/
+mujoco/bone_cache/
+mujoco/.venv/
+# transient Bao shard dumps and probe scratch
+mujoco/sub_*.json
+mujoco/root.json
+mujoco/d.json
+mujoco/st.json
+mujoco/hailort.log
+mujoco/sub_*.b64
+mujoco/tmp_h*.xml
