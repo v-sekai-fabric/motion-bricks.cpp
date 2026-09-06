@@ -1,0 +1,151 @@
+{
+  "device": "NVIDIA GeForce RTX 3090",
+  "gates": {
+    "g1_lbs_env0_max_abs_err": 2.8222357761897854e-07,
+    "g1_lbs_env1_max_abs_err": 2.755086245809224e-07,
+    "g1_pass": true,
+    "g2_iou_identical": [
+      1.0,
+      1.0
+    ],
+    "g2_pass": true,
+    "g3_iou_offset": [
+      0.4378124177455902,
+      0.41198182106018066
+    ],
+    "g3_pass": true,
+    "g4_iou_vs_restpose": [
+      0.7948257327079773,
+      0.5282442569732666
+    ],
+    "g4_iou_vs_posedref": [
+      1.0,
+      1.0
+    ],
+    "g4_tpose_reference_error": [
+      0.2051742672920227,
+      0.4717557430267334
+    ],
+    "g4_pass": true,
+    "g5_coverage": [
+      0.15142822265625,
+      0.15203857421875
+    ],
+    "g5_pass": true,
+    "all_pass": true
+  },
+  "avatar": {
+    "verts": 24951,
+    "tris": 36470,
+    "nodes": 171,
+    "morphs": 399
+  },
+  "forward": [
+    {
+      "n_env": 4096,
+      "res": 64,
+      "ms_per_step": 8.251815999974497,
+      "silhouettes_per_s": 496375.5856907933,
+      "peak_torch_mib": 2437.56005859375,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "sm_mhz_before": [
+        210
+      ],
+      "sm_mhz_after": [
+        1725
+      ],
+      "foreign_mem_before_mib": [],
+      "ok": true
+    },
+    {
+      "n_env": 4096,
+      "res": 128,
+      "ms_per_step": 9.786935999873094,
+      "silhouettes_per_s": 418517.09258680267,
+      "peak_torch_mib": 2885.56005859375,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "sm_mhz_before": [
+        1725
+      ],
+      "sm_mhz_after": [
+        1725
+      ],
+      "foreign_mem_before_mib": [
+        2917
+      ],
+      "ok": true
+    },
+    {
+      "n_env": 2048,
+      "res": 128,
+      "ms_per_step": 4.97070800018264,
+      "silhouettes_per_s": 412013.7412869052,
+      "peak_torch_mib": 2156.31787109375,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "sm_mhz_before": [
+        1725
+      ],
+      "sm_mhz_after": [
+        1740
+      ],
+      "foreign_mem_before_mib": [
+        3429
+      ],
+      "ok": true
+    },
+    {
+      "n_env": 1024,
+      "res": 256,
+      "ms_per_step": 4.701855999883264,
+      "silhouettes_per_s": 217786.337996192,
+      "peak_torch_mib": 1398.69677734375,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "sm_mhz_before": [
+        1740
+      ],
+      "sm_mhz_after": [
+        1830
+      ],
+      "foreign_mem_before_mib": [
+        3429
+      ],
+      "ok": true
+    },
+    {
+      "n_env": 512,
+      "res": 512,
+      "ms_per_step": 6.863756000238936,
+      "silhouettes_per_s": 74594.72626681028,
+      "peak_torch_mib": 1468.09716796875,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "sm_mhz_before": [
+        1830
+      ],
+      "sm_mhz_after": [
+        1905
+      ],
+      "foreign_mem_before_mib": [
+        3429
+      ],
+      "ok": true
+    },
+    {
+      "n_env": 4096,
+      "res": 256,
+      "ms_per_step": 18.963048000005074,
+      "silhouettes_per_s": 215999.03137928585,
+      "peak_torch_mib": 3397.75732421875,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "sm_mhz_before": [
+        1905
+      ],
+      "sm_mhz_after": [
+        1845
+      ],
+      "foreign_mem_before_mib": [
+        3429
+      ],
+      "ok": true
+    }
+  ]
+}
