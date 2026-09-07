@@ -25,3 +25,15 @@ mujoco/hailort.log
 mujoco/sub_*.b64
 mujoco/tmp_h*.xml
 mujoco/.pixi/
+
+# mujoco desk artefacts: pixi env, shader caches, hull sweeps, copied robot meshes, shard scratch, logs.
+/mujoco/.pixi/
+/mujoco/.slangtorch_cache/
+/mujoco/bone_cache/
+/mujoco/slangtest/
+/mujoco/assets/
+/mujoco/tmp_*.xml
+/mujoco/g1_hulls*.xml
+/mujoco/*.json
+/mujoco/*.b64
+/mujoco/*.log
