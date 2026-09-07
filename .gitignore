@@ -24,3 +24,4 @@ mujoco/st.json
 mujoco/hailort.log
 mujoco/sub_*.b64
 mujoco/tmp_h*.xml
+mujoco/.pixi/
