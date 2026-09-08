@@ -1,0 +1,71 @@
+# Environment for the #174 / #177 motion-cluster work: ROM calibration, CoACD
+# hull decomposition, MuJoCo collision benchmarks, and the forward-only skinned
+# silhouette harness.
+#
+# Declared per CLAUDE.md: pixi, not uv. An environment nothing declares is one
+# nobody can rebuild. Versions below are what the measurements in
+# decomp_timing.json, bench_*.json and calib.log were actually taken against.
+
+[project]
+name = "motion-bricks-mujoco"
+version = "0.1.0"
+description = "ROM calibration, CoACD hulls, collision + silhouette benchmarks for MotionBricks G1"
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64"]
+
+[dependencies]
+python = "3.13.*"
+numpy = ">=2.5,<3"
+scipy = ">=1.18,<2"
+
+[pypi-dependencies]
+# --- simulation ---
+mujoco = "==3.11.0"
+mjlab = "==1.6.0"
+warp-lang = "==1.17.0"
+rsl-rl-lib = "==5.4.2"
+tensordict = "==0.14.1"
+
+# --- convex decomposition (task #177) ---
+# Matches the manifest pin 3-interactor/coacd-upstream @ 1401ce2 (release 1.0.14, MIT).
+coacd = "==1.0.14"
+trimesh = ">=4.12,<5"
+pygltflib = ">=1.16,<2"
+
+# --- silhouette harness: Slang kernels + Mitsuba ---
+# slangtorch needs ninja and a CUDA nvcc on PATH to build the LBS and
+# rasteriser kernels at first import.
+slangtorch = "==1.3.22"
+ninja = ">=1.13"
+mitsuba = "==3.9.1"
+drjit = "==1.5.0"
+
+# --- parametric body model (identity axis) ---
+# Editable checkout from the manifest; not on PyPI.
+anny = { path = "../../anny", editable = true }
+
+# --- coordination store reader ---
+cbor2 = ">=6.1,<7"
+
+[feature.cuda.pypi-dependencies]
+# torch cu128 for sm_89 (4090) and sm_86 (3090). Pinned to PyTorch's own index
+# per-package rather than as a global extra-index-url: a blanket extra index
+# invites dependency confusion, and pixi rejects it without
+# --index-strategy unsafe-best-match. Naming the index on the one package that
+# needs it keeps everything else resolving from PyPI only.
+torch = { version = "==2.11.0", index = "https://download.pytorch.org/whl/cu128" }
+onnxscript = ">=0.7,<1"
+
+[feature.dev.pypi-dependencies]
+pytest = ">=9,<10"
+hypothesis = ">=6.167,<7"
+
+[environments]
+default = { features = ["cuda"] }
+dev = { features = ["cuda", "dev"] }
+
+[tasks]
+rom = "python rom_calibrate.py"
+rommap = "python rom_map.py"
+hulls = "python vrm_coacd.py"
+territory = "python territory_rectgtn.py"
