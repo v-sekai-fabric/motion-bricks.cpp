@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "The Unitree G1 MJCF under this directory (g1.xml, g1_with_hands.xml, and the derived hull and cloth variants) is the MuJoCo Menagerie copy of Unitree's model; cite it and its licence when reusing."
+title: "Unitree G1 MJCF (MuJoCo Menagerie copy) as used by motion-bricks.cpp"
+type: dataset
+license: BSD-3-Clause
+authors:
+  - name: "Unitree Robotics"
+  - name: "Google DeepMind (MuJoCo Menagerie maintainers)"
+repository-code: "https://github.com/google-deepmind/mujoco_menagerie/tree/main/unitree_g1"
+identifiers:
+  - type: url
+    value: "https://github.com/unitreerobotics/unitree_ros"
+    description: "upstream source of g1_29dof_rev_1_0.xml"
+keywords:
+  - unitree-g1
+  - mujoco
+  - mjcf
+  - humanoid
+abstract: "29 actuated joints, position actuators kp=500 with dampratio 1, one 'stand' keyframe. The STL meshes under assets/ are gitignored and re-downloadable from the Menagerie. The derived files (g1_cloth.xml, g1_hulls*.xml) are generated from g1.xml by add_cloth_chains.py and build_hull_mjcf.py under the same licence. Scanned for NC and SA terms on 2026-09-06: none; clear of the CLAUDE.md CC-BY-SA row."

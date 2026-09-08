@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mjlab-motionbricks"
+version = "0.1.0"
+description = "The G1 sim-to-real task family for MotionBricks on mjlab (RFD 2238): the microduck layout"
+requires-python = ">=3.10,<3.14"
+license = "Apache-2.0"
+# The stack (mjlab, mujoco, warp, torch, rsl-rl) is pinned by ../pixi.toml; this package adds no pin.
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mjlab_motionbricks*"]
