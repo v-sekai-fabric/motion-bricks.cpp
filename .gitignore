@@ -37,3 +37,6 @@ mujoco/.pixi/
 /mujoco/*.json
 /mujoco/*.b64
 /mujoco/*.log
+/mujoco/runs/
+/mujoco/policies/
+/mujoco/logs/

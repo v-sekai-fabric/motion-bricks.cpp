@@ -1,0 +1,28 @@
+{
+  "task": "Mjlab-Velocity-Flat-MotionBricks-G1",
+  "run": "logs/rsl_rl/motionbricks_g1_flat/2026-09-08_06-26-08_smoke_1788873962",
+  "checkpoint": "logs/rsl_rl/motionbricks_g1_flat/2026-09-08_06-26-08_smoke_1788873962/model_299.pt",
+  "num_envs": 1024,
+  "iterations": 300,
+  "train_wall_s": 0.0,
+  "rollout": {
+    "steps": 1000,
+    "num_envs": 64,
+    "shift_deg": 0.0,
+    "rom_clearance": 0.7986,
+    "denominator": "1000 frames x 64 envs x 8 gate joints",
+    "mean_reward_per_step": 0.0541
+  },
+  "shifted_envelope_control": {
+    "steps": 200,
+    "num_envs": 64,
+    "shift_deg": 30.0,
+    "rom_clearance": 0.7562,
+    "denominator": "200 frames x 64 envs x 8 gate joints",
+    "mean_reward_per_step": 0.054
+  },
+  "obs_dim": 99,
+  "action_dim": 29,
+  "onnx": "policies/smoke/policy.onnx",
+  "normalizer_in_graph": true
+}

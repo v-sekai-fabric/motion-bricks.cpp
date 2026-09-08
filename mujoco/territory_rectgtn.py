@@ -464,6 +464,13 @@ def build(verified_at: str) -> list[dict]:
         fact("finding:rom_gate_joint_count@8", V),
         fact("finding:obs_dim_body_plus_cloth@400", V),
         fact("finding:pixiv_vrm_springbone_chains@22", V),
+        fact("finding:g1_mjlab_obs_dim_actor@99", V),
+        fact("finding:g1_mjlab_obs_dim_critic@111", V),
+        fact("finding:g1_mjlab_smoke_300it_1024env_wall_s@341", V),
+        fact("finding:g1_mjlab_smoke_rom_clearance@0.7986_control_shifted30deg@0.7562", V),
+        fact("finding:g1_rom_envelope_binding@e3_on_all_8", V),
+        fact("pin:g1_sim_to_real_host@wsl2-ubuntu-26.04-pixi-0.80", V),
+        fact("pin:g1_rom_envelope#sha256_prefix@08205882", V),
     ]
 
     # data flows

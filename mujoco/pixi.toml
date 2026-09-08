@@ -17,6 +17,7 @@ platforms = ["win-64", "linux-64"]
 python = "3.13.*"
 numpy = ">=2.5,<3"
 scipy = ">=1.18,<2"
+pyarrow = ">=17"
 
 [pypi-dependencies]
 # --- simulation ---
@@ -47,6 +48,11 @@ anny = { path = "../../anny", editable = true }
 # --- coordination store reader ---
 cbor2 = ">=6.1,<7"
 
+# --- the G1 sim-to-real task family (RFD 2238): the microduck layout on mjlab ---
+mjlab-motionbricks = { path = "motionbricks_task", editable = true }
+# the E.3 refetch reads the appendix dataset
+datasets = ">=3,<5"
+
 [feature.cuda.pypi-dependencies]
 # torch cu128 for sm_89 (4090) and sm_86 (3090). Pinned to PyTorch's own index
 # per-package rather than as a global extra-index-url: a blanket extra index
@@ -66,6 +72,18 @@ dev = { features = ["cuda", "dev"] }
 
 [tasks]
 rom = "python rom_calibrate.py"
+envelope = "python rom_envelope.py"
+envelope-check = "python rom_envelope.py --check"
+envelope-self-test = "python rom_envelope.py --self-test"
+envelope-refetch = "python rom_envelope.py --refetch"
+stack-check = "python -m mjlab_motionbricks.stack_check"
+env-check = "python -m mjlab_motionbricks.env_check"
+train = "python -m mjlab_motionbricks.train_cli"
+play = "python -m mjlab_motionbricks.play_cli"
+export = "python -m mjlab_motionbricks.export"
+smoke = "python -m mjlab_motionbricks.smoke"
+rollouts = "python -m mjlab_motionbricks.rollout_corpus"
+rollouts-census = "python motionbricks_task/mjlab_motionbricks/census_rollouts.py"
 rommap = "python rom_map.py"
 hulls = "python vrm_coacd.py"
 territory = "python territory_rectgtn.py"
