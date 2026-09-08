@@ -1,0 +1,108 @@
+{
+  "run": {
+    "task": "Mjlab-Velocity-Flat-MotionBricks-G1",
+    "checkpoint_sha256": "891b8c600733d6515e43a4d3730c1792bec21b50d3d7e1c268b991cdfb316e0f",
+    "obs_dim": 99,
+    "action_dim": 29,
+    "control_hz": 50,
+    "synthetic_class": "generated",
+    "generating_model": "PPO policy from the task above at the checkpoint above",
+    "conditioning": "the twist command per sweep, the seed, mjlab's play-mode randomisation"
+  },
+  "splits": {
+    "train": {
+      "shards": 42,
+      "frames": 1344000,
+      "episodes": 20809,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames_per_sweep": {
+        "lateral": 192000,
+        "mixed": 192000,
+        "run": 192000,
+        "stand": 192000,
+        "turn": 192000,
+        "walk": 192000,
+        "walk_slow": 192000
+      },
+      "terminal_fraction": 0.0135,
+      "rom_clearance_mean": 0.8017,
+      "reward_mean": 0.0673,
+      "ended": {
+        "run_end": 2652,
+        "terminated": 18157
+      }
+    },
+    "test": {
+      "shards": 7,
+      "frames": 224000,
+      "episodes": 3480,
+      "seeds": [
+        6
+      ],
+      "frames_per_sweep": {
+        "lateral": 32000,
+        "mixed": 32000,
+        "run": 32000,
+        "stand": 32000,
+        "turn": 32000,
+        "walk": 32000,
+        "walk_slow": 32000
+      },
+      "terminal_fraction": 0.0136,
+      "rom_clearance_mean": 0.8029,
+      "reward_mean": 0.0675,
+      "ended": {
+        "run_end": 444,
+        "terminated": 3036
+      }
+    },
+    "evaluation": {
+      "shards": 7,
+      "frames": 224000,
+      "episodes": 3451,
+      "seeds": [
+        7
+      ],
+      "frames_per_sweep": {
+        "lateral": 32000,
+        "mixed": 32000,
+        "run": 32000,
+        "stand": 32000,
+        "turn": 32000,
+        "walk": 32000,
+        "walk_slow": 32000
+      },
+      "terminal_fraction": 0.0135,
+      "rom_clearance_mean": 0.802,
+      "reward_mean": 0.0677,
+      "ended": {
+        "run_end": 438,
+        "terminated": 3013
+      }
+    }
+  },
+  "nulls": 0,
+  "seeds_per_split": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "test": [
+      6
+    ],
+    "evaluation": [
+      7
+    ]
+  }
+}
