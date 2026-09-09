@@ -16,8 +16,13 @@ option(MOTIONBRICKS_ENABLE_VULKAN "Enable the GGML Vulkan backend" ON)
 option(MOTIONBRICKS_ENABLE_FUZZERS "Build libFuzzer targets" OFF)
 option(MOTIONBRICKS_SANITIZE "Enable AddressSanitizer and UndefinedBehaviorSanitizer" OFF)
 option(MOTIONBRICKS_DOWNLOAD_MODELS "Download and verify the published runtime model/style bundle" ON)
-set(MOTIONBRICKS_GGML_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ggml" CACHE PATH
-    "Pinned GGML submodule source directory")
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/../../2-contract/ggml/CMakeLists.txt")
+    set(_motionbricks_default_ggml "${CMAKE_CURRENT_SOURCE_DIR}/../../2-contract/ggml")
+else()
+    set(_motionbricks_default_ggml "${CMAKE_CURRENT_SOURCE_DIR}/ggml")
+endif()
+set(MOTIONBRICKS_GGML_SOURCE_DIR "${_motionbricks_default_ggml}" CACHE PATH
+    "Pinned GGML source directory; defaults to the workspace-shared 2-contract/ggml when present (RFD 2188), otherwise to the local ./ggml checkout for standalone builds")
 set(MOTIONBRICKS_MODEL_REPOSITORY "LocalAI-io/MotionBricks-G1-GGML" CACHE STRING
     "Hugging Face repository containing the runtime bundle")
 set(MOTIONBRICKS_MODEL_REVISION "cc2a47603dbc203a4f18f35dd06ed3611833f506" CACHE STRING
