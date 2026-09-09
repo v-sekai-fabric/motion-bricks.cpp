@@ -74,7 +74,8 @@ def apply(cfg, command: str, args: list[str]) -> None:
             n = _num(args[0], what + " noise")
             if n < 0:
                 raise ValueError(f"{what}: noise {n} is negative")
-            proto = terms["joint_pos"].noise
+            # the prototype comes from a fresh config: an earlier step may have zeroed this term's noise
+            proto = motionbricks_g1_flat_env_cfg().observations["actor"].terms["joint_pos"].noise
             term.noise = None if n == 0 else dataclasses.replace(proto, n_min=-n, n_max=n)
     elif cls == "Metric":
         if method not in cfg.metrics:
